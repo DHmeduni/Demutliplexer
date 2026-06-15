@@ -31,7 +31,7 @@ pip install regex biopython
 ## Options
 
 ################################################
-
+```
 Short  Long           Type      Default     Description
 -i    --input		      string		Required		Path to the input FASTQ file
 -b    --barcodes		  string		Required		Path to the barcode file
@@ -44,6 +44,7 @@ Short  Long           Type      Default     Description
 -s    --split		      flag		  False		    Allows barcodse to be split if two barcode sequences are given
 
 #################################################
+```
 
 ## Usage
 
