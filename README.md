@@ -30,21 +30,35 @@ pip install regex biopython
 
 ## Options
 
-```
-#################################
-Short	Long	Type	Default	Description
--i	--input	string	Required	Path to the input FASTQ file
--b	--barcodes	string	Required	Path to the barcode file
--o	--output	string	Required	Path to the output folder
--m	--mismatches	int	2	Maximum number of allowed mismatches
--w	--window	int	60	Search window size (bp from end of read to search)
--r	--require_both	flag	False	Require a valid barcode at both ends of the sequence
--p	--processes	int	4	Number of parallel processes to use
--v	--verbose	flag	False	Enable verbose output for detailed logging
--s	--split	flag	False	Allows barcodes to be split if two barcode sequences are given
-#################################
 
 ```
+
+#################################################
+
+Short  Long           Type      Default     Description
+
+-i    --input              string        Required        Path to the input FASTQ file
+
+-b    --barcodes          string        Required        Path to the barcode file
+
+-o    --output            string        Required        Path to the output folder
+
+-m    --mismatches      int            2                Maximum number of allowed mismatches
+
+-w    --window            int            60              Search window size (bp from end of read to search)
+
+-r    --require_both    flag          False            Require a valid barcode at both ends of the sequence
+
+-p    --processes          int            4                Number of parallel processes to use
+
+-v    --verbose            flag          False            Enable verbose output for detailed logging
+
+-s    --split              flag          False            Allows barcodse to be split if two barcode sequences are given
+
+#################################################
+
+``` 
+
 
 
 ## Usage
